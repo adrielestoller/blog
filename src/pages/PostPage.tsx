@@ -38,9 +38,15 @@ export function PostPage() {
             <p><span className="text-zinc-600">Autor: </span>Adriel Estoller</p>
             <p><span className="text-zinc-600">Postado em: </span>00/00/0000, às 00:00h</p>
             <div className="my-2 flex gap-2 text-zinc-600">
-              <Instagram className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600 hover:scale-110" />
-              <Twitter className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600 hover:scale-110" />
-              <Github className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600 hover:scale-110" />
+              <a href="" target="_blank">
+                <Instagram className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600 hover:scale-110" />
+              </a>
+              <a href="" target="_blank">
+                <Twitter className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600 hover:scale-110" />
+              </a>
+              <a href="" target="_blank">
+                <Github className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600 hover:scale-110" />
+              </a>
             </div>
           </div>
         </div>
