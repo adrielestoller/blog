@@ -12,7 +12,7 @@ export function Header() {
             href="/"
             className="w-full max-w-xl py-3 bg-white text-right cursor-pointer transition-all duration-300 ease-in-out hover:bg-zinc-800 hover:text-white"
           >
-            <h1 className="mr-24 font-semibold text-4xl">Blog</h1>
+            <h2 className="mr-24 font-semibold text-4xl">Blog</h2>
           </a>
           <div className="w-full bg-zinc-800 box-border"></div>
         </div>

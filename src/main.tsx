@@ -9,6 +9,7 @@ import { AuthorPage } from "./pages/AuthorPage";
 import { LoginPage } from "./pages/LoginPage";
 
 import "./index.css";
+import { DashboardPage } from "./pages/DashboardPage";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <LoginPage />,
+  },
+  {
+    path: "/admin",
+    element: <DashboardPage />,
   },
 ]);
 

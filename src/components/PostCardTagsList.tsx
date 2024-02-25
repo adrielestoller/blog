@@ -17,7 +17,7 @@ export function PostCardTagsList(props: PostCardTagsListProps) {
             {item}
           </span>
         ))}
-        {items.length > 5 && (
+        {items.length > 3 && (
           <>
             <ArrowRight className="cursor-pointer text-zinc-800 hover:text-zinc-600" />
           </>
