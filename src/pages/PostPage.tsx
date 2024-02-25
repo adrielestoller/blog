@@ -1,7 +1,7 @@
 import { Github, Instagram, Twitter } from "lucide-react";
 import { Header } from "../components/Header";
 import { ImageBox } from "../components/ImageBox";
-import { PostCardTagsList } from '../components/PostCardTagsList';
+import { PostTagsList } from "../components/PostTagsList";
 
 export function PostPage() {
   return (
@@ -25,7 +25,7 @@ export function PostPage() {
 
         <div className="flex gap-1">
           <p>Tags: </p>
-          <PostCardTagsList items={['tag1', 'tag2']} />
+          <PostTagsList items={['tag1', 'tag2', 'tag2', 'tag2']} />
         </div>
       </main>
 
