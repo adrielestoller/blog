@@ -1,4 +1,4 @@
-import { Github, Instagram, Twitter } from "lucide-react";
+import { CreativeCommons, Github, Instagram, Twitter } from "lucide-react";
 import { Header } from "../components/Header";
 import { ImageBox } from "../components/ImageBox";
 import { PostTagsList } from "../components/PostTagsList";
@@ -51,6 +51,23 @@ export function PostPage() {
       <div className="max-w-3xl mx-auto my-12">
         Fórum
       </div>
+
+      <footer className="h-20 w-screen flex flex-col gap-2 items-center justify-center text-white bg-zinc-800">
+        <div className="flex gap-1">
+          <CreativeCommons className="w-4 text-md" /><p>2024 Adriel Estoller. Todos os Direitos Reservados.</p>
+        </div>
+        <div className="flex gap-4">
+          <a href="https://www.instagram.com/adrielestoller_/" target="_blank">
+            <Instagram className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-white hover:scale-110" />
+          </a>
+          <a href="https://twitter.com/adrielestoller_" target="_blank">
+            <Twitter className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-white hover:scale-110" />
+          </a>
+          <a href="https://github.com/adrielestoller" target="_blank">
+            <Github className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-white hover:scale-110" />
+          </a>
+        </div>
+      </footer>
     </>
   )
 }
