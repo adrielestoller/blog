@@ -1,6 +1,6 @@
 interface ImageBoxProps {
   url: string;
-  description: string | null;
+  description?: string;
 }
 
 export function ImageBox({ url, description }: ImageBoxProps) {

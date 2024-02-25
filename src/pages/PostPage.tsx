@@ -19,6 +19,10 @@ export function PostPage() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque quae provident corrupti quaerat voluptatem repudiandae cumque! A enim rerum mollitia sit ipsum earum, expedita eos, cupiditate adipisci neque voluptas.</p>
         </article>
       </main>
+
+      <footer>
+        <ImageBox url="https://media.discordapp.net/attachments/1207509084367102042/1211193520333791242/BLEACHJET.jpg?ex=65ed4ede&is=65dad9de&hm=ab1cb5bdec70ec582454af0c0eb004994ea842c37d06616e001bfbe765e22017&=&format=webp&width=458&height=458" />
+      </footer>
     </>
   )
 }
