@@ -1,4 +1,4 @@
-import { PostTagsList } from './PostTagsList';
+import { PostCardTagsList } from './PostCardTagsList';
 
 interface PostCardProps {
   title: string;
@@ -13,7 +13,7 @@ export function PostCard({ title, date, tags }: PostCardProps) {
       <h3 className="w-fit font-bold text-xl cursor-pointer transition-all duration-150 hover:text-zinc-600">{title}</h3>
       <div className="mr-2 flex gap-1 justify-between">
         <p>{date}</p>
-        <PostTagsList items={tags} />
+        <PostCardTagsList items={tags} />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import { Github, Instagram, Twitter } from "lucide-react";
 import { Header } from "../components/Header";
 import { ImageBox } from "../components/ImageBox";
+import { PostCardTagsList } from '../components/PostCardTagsList';
 
 export function PostPage() {
   return (
@@ -21,6 +22,11 @@ export function PostPage() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque quae provident corrupti quaerat voluptatem repudiandae cumque! A enim rerum mollitia sit ipsum earum, expedita eos, cupiditate adipisci neque voluptas.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque quae provident corrupti quaerat voluptatem repudiandae cumque! A enim rerum mollitia sit ipsum earum, expedita eos, cupiditate adipisci neque voluptas.</p>
         </article>
+
+        <div className="flex gap-1">
+          <p>Tags: </p>
+          <PostCardTagsList items={['tag1', 'tag2']} />
+        </div>
       </main>
 
       <hr className="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-zinc-800"></hr>
