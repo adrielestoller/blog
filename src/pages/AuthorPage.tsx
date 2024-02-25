@@ -3,6 +3,7 @@ import { Header } from "../components/Header";
 import { InfoBox } from "../components/InfoBox";
 import { PostCard } from "../components/PostCard";
 import { BackToTopButton } from "../components/BackToTopButton";
+import { Footer } from "../components/Footer";
 
 export function AuthorPage() {
   return (
@@ -38,6 +39,7 @@ export function AuthorPage() {
         <PostCard title="Título Interessante" date="00/00/0000, 00:00h" tags={['tag1', 'tag2', 'tag3']} />
         <BackToTopButton />
       </main>
+      <Footer />
     </>
   )
 }
