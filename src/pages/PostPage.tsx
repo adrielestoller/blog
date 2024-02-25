@@ -60,13 +60,18 @@ export function PostPage() {
               alt="Author profile image"
             />
           </a>
-          <div>
+          <div className="flex flex-col gap-1">
             <p>
-              <span className="text-zinc-600">Autor: </span>Adriel Estoller
+              <span className="text-zinc-600 ">Autor: </span>
+              <span className="border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600">
+                Adriel Estoller
+              </span>
             </p>
             <p>
-              <span className="text-zinc-600">Postado em: </span>00/00/0000, às
-              00:00h
+              <span className="text-zinc-600">Postado em: </span>
+              <span className="border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600">
+                00/00/0000, às 00:00h
+              </span>
             </p>
             <div className="my-2 flex gap-2 text-zinc-600">
               <a href="" target="_blank">
