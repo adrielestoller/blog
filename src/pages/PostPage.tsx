@@ -2,6 +2,7 @@ import { CreativeCommons, Github, Instagram, Twitter } from "lucide-react";
 import { Header } from "../components/Header";
 import { ImageBox } from "../components/ImageBox";
 import { PostTagsList } from "../components/PostTagsList";
+import { BackToTopButton } from "../components/BackToTopButton";
 
 export function PostPage() {
   return (
@@ -57,6 +58,8 @@ export function PostPage() {
       <div className="max-w-3xl mx-auto my-12">
         Fórum
       </div>
+
+      <BackToTopButton />
 
       <footer className="h-20 w-screen flex flex-col gap-2 items-center justify-center text-white bg-zinc-800">
         <div className="flex gap-1">
