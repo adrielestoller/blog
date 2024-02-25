@@ -6,6 +6,7 @@ import { HomePage } from "./pages/HomePage";
 import { PostPage } from "./pages/PostPage";
 import { ErrorPage } from "./pages/ErrorPage";
 import { AuthorPage } from "./pages/AuthorPage";
+import { LoginPage } from "./pages/LoginPage";
 
 import "./index.css";
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/author",
     element: <AuthorPage />,
+  },
+  {
+    path: "/login",
+    element: <LoginPage />,
   },
 ]);
 
