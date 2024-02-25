@@ -4,7 +4,8 @@ export function Footer() {
   return (
     <footer className="h-20 w-screen flex flex-col gap-2 items-center justify-center text-white bg-zinc-800">
       <div className="flex gap-1">
-        <CreativeCommons className="w-4 text-md" /><p>2024 Adriel Estoller. Todos os Direitos Reservados.</p>
+        <CreativeCommons className="w-4 text-md" />
+        <p>2024 Adriel Estoller. Todos os Direitos Reservados.</p>
       </div>
       <div className="flex gap-4">
         <a href="https://www.instagram.com/adrielestoller_/" target="_blank">
@@ -18,5 +19,5 @@ export function Footer() {
         </a>
       </div>
     </footer>
-  )
+  );
 }

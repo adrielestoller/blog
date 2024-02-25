@@ -16,5 +16,5 @@ export function PostTagsList(props: PostTagsListProps) {
         ))}
       </div>
     </>
-  )
+  );
 }

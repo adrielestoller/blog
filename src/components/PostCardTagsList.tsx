@@ -24,5 +24,5 @@ export function PostCardTagsList(props: PostCardTagsListProps) {
         )}
       </div>
     </>
-  )
+  );
 }
