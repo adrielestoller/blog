@@ -1,8 +1,8 @@
-import { Header } from "./components/Header";
-import { InfoBox } from "./components/InfoBox";
-import { PostCard } from "./components/PostCard";
+import { Header } from "./../components/Header";
+import { InfoBox } from "./../components/InfoBox";
+import { PostCard } from "./../components/PostCard";
 
-export function App() {
+export function HomePage() {
   return (
     <>
       <Header />
