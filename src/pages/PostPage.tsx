@@ -27,7 +27,7 @@ export function PostPage() {
 
       <footer className="max-w-3xl mx-auto my-12">
         <div className="flex gap-3 items-center">
-          <img className="cursor-pointer rounded-full w-28 h-28" src="https://media.discordapp.net/attachments/1207509084367102042/1211193520333791242/BLEACHJET.jpg?ex=65ed4ede&is=65dad9de&hm=ab1cb5bdec70ec582454af0c0eb004994ea842c37d06616e001bfbe765e22017&=&format=webp&width=458&height=458" alt="Author profile image" />
+          <img className="cursor-pointer rounded-full w-28 h-28 transition-all duration-300 hover:blur-sm hover:scale-105" src="https://media.discordapp.net/attachments/1207509084367102042/1211193520333791242/BLEACHJET.jpg?ex=65ed4ede&is=65dad9de&hm=ab1cb5bdec70ec582454af0c0eb004994ea842c37d06616e001bfbe765e22017&=&format=webp&width=458&height=458" alt="Author profile image" />
           <div>
             <p><span className="text-zinc-600">Autor: </span>Adriel Estoller</p>
             <p><span className="text-zinc-600">Postado em: </span>00/00/0000, às 00:00h</p>
