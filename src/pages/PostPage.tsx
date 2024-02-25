@@ -31,7 +31,7 @@ export function PostPage() {
 
       <hr className="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-zinc-800"></hr>
 
-      <footer className="max-w-3xl mx-auto my-12">
+      <section className="max-w-3xl mx-auto my-12">
         <div className="flex gap-3 items-center">
           <img className="cursor-pointer rounded-full w-28 h-28 transition-all duration-300 hover:blur-sm hover:scale-105" src="https://media.discordapp.net/attachments/1207509084367102042/1211193520333791242/BLEACHJET.jpg?ex=65ed4ede&is=65dad9de&hm=ab1cb5bdec70ec582454af0c0eb004994ea842c37d06616e001bfbe765e22017&=&format=webp&width=458&height=458" alt="Author profile image" />
           <div>
@@ -44,7 +44,7 @@ export function PostPage() {
             </div>
           </div>
         </div>
-      </footer>
+      </section>
 
       <hr className="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-zinc-800"></hr>
 
