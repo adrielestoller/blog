@@ -7,7 +7,7 @@ import { Footer } from "../components/Footer";
 
 export function AuthorPage() {
   return (
-    <>
+    <div>
       <Header />
       <main className="max-h-min max-w-3xl mx-auto my-12">
         <div className="flex gap-6">
@@ -65,6 +65,6 @@ export function AuthorPage() {
         <BackToTopButton />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
