@@ -1,11 +1,11 @@
-import { Github, Instagram, Twitter } from "lucide-react";
 import { Header } from "../components/Header";
 import { ImageBox } from "../components/ui/ImageBox";
 import { PostTagsList } from "../components/PostTagsList";
 import { BackToTopButton } from "../components/ui/BackToTopButton";
 import { Footer } from "../components/Footer";
-import { PostTitle } from "../components/ui/PostTitle";
-import { PostContent } from "../components/ui/PostContent";
+import { PostTitle } from "../components/PostTitle";
+import { PostContent } from "../components/PostContent";
+import { AuthorSection } from "../components/AuthorSection";
 
 export function PostPage() {
   return (
@@ -37,42 +37,14 @@ export function PostPage() {
 
       <hr className="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-zinc-800"></hr>
 
-      <section className="max-w-3xl mx-auto my-12">
-        <div className="flex gap-3 items-center">
-          <a href="/author">
-            <img
-              className="cursor-pointer rounded-full w-28 h-28 transition-all duration-300 hover:blur-sm hover:scale-105"
-              src="https://media.discordapp.net/attachments/1207509084367102042/1211193520333791242/BLEACHJET.jpg?ex=65ed4ede&is=65dad9de&hm=ab1cb5bdec70ec582454af0c0eb004994ea842c37d06616e001bfbe765e22017&=&format=webp&width=458&height=458"
-              alt="Author profile image"
-            />
-          </a>
-          <div className="flex flex-col gap-1">
-            <p>
-              <span className="text-zinc-600 ">Autor: </span>
-              <span className="border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600">
-                Adriel Estoller
-              </span>
-            </p>
-            <p>
-              <span className="text-zinc-600">Postado em: </span>
-              <span className="border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600">
-                00/00/0000, às 00:00h
-              </span>
-            </p>
-            <div className="my-2 flex gap-2 text-zinc-600">
-              <a href="" target="_blank">
-                <Instagram className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600 hover:scale-110" />
-              </a>
-              <a href="" target="_blank">
-                <Twitter className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600 hover:scale-110" />
-              </a>
-              <a href="" target="_blank">
-                <Github className="cursor-pointer border-transparent border-b-2 transition-all duration-150 ease-linear hover:border-zinc-600 hover:scale-110" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <AuthorSection
+        name="Adriel Estoller"
+        postDate="00/00/0000, 00:00h"
+        imageURL="https://media.discordapp.net/attachments/1207509084367102042/1211193520333791242/BLEACHJET.jpg?ex=65ed4ede&is=65dad9de&hm=ab1cb5bdec70ec582454af0c0eb004994ea842c37d06616e001bfbe765e22017&=&format=webp&width=458&height=458"
+        instagramURl="#"
+        twitterURL="#"
+        githubURL="#"
+      />
 
       <hr className="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-zinc-800"></hr>
 
