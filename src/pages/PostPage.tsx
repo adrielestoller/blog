@@ -4,16 +4,15 @@ import { ImageBox } from "../components/ui/ImageBox";
 import { PostTagsList } from "../components/PostTagsList";
 import { BackToTopButton } from "../components/ui/BackToTopButton";
 import { Footer } from "../components/Footer";
+import { PostTitle } from "../components/ui/PostTitle";
+import { PostContent } from "../components/ui/PostContent";
 
 export function PostPage() {
   return (
     <>
       <Header />
       <main className="max-w-3xl mx-auto my-12">
-        <div className="text-center flex flex-col gap-3">
-          <h1 className="text-4xl font-bold">Título Interessante</h1>
-          <p className="text-xl italic">00/00/0000, 00:00h</p>
-        </div>
+        <PostTitle title="Título Interessante" date="00/00/0000, 00:00h" />
 
         <hr className="w-48 h-1 mx-auto my-4 border-0 rounded md:my-10 bg-zinc-800"></hr>
 
@@ -22,26 +21,13 @@ export function PostPage() {
           description="Descrição da imagem exemplo"
         />
 
-        <article className="max-w-full my-4 text-xl text-justify tracking-wide leading-relaxed font-serif flex flex-col gap-2">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque
-            quae provident corrupti quaerat voluptatem repudiandae cumque! A
-            enim rerum mollitia sit ipsum earum, expedita eos, cupiditate
-            adipisci neque voluptas.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque
-            quae provident corrupti quaerat voluptatem repudiandae cumque! A
-            enim rerum mollitia sit ipsum earum, expedita eos, cupiditate
-            adipisci neque voluptas.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eaque
-            quae provident corrupti quaerat voluptatem repudiandae cumque! A
-            enim rerum mollitia sit ipsum earum, expedita eos, cupiditate
-            adipisci neque voluptas.
-          </p>
-        </article>
+        <PostContent
+          content={[
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dolorem accusantium corporis a quam eveniet fugit facilis, natus dolorum ex? Dolorem aperiam dolorum excepturi architecto quibusdam numquam eos magni suscipit.",
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dolorem accusantium corporis a quam eveniet fugit facilis, natus dolorum ex? Dolorem aperiam dolorum excepturi architecto quibusdam numquam eos magni suscipit.",
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto dolorem accusantium corporis a quam eveniet fugit facilis, natus dolorum ex? Dolorem aperiam dolorum excepturi architecto quibusdam numquam eos magni suscipit.",
+          ]}
+        />
 
         <div className="flex gap-1">
           <p>Tags: </p>
