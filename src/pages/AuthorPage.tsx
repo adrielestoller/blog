@@ -2,7 +2,7 @@ import { Github, Instagram, Twitter } from "lucide-react";
 import { Header } from "../components/Header";
 import { InfoBox } from "../components/InfoBox";
 import { PostCard } from "../components/PostCard";
-import { BackToTopButton } from "../components/BackToTopButton";
+import { BackToTopButton } from "../components/ui/BackToTopButton";
 import { Footer } from "../components/Footer";
 
 export function AuthorPage() {

@@ -1,8 +1,8 @@
 import { Github, Instagram, Twitter } from "lucide-react";
 import { Header } from "../components/Header";
-import { ImageBox } from "../components/ImageBox";
+import { ImageBox } from "../components/ui/ImageBox";
 import { PostTagsList } from "../components/PostTagsList";
-import { BackToTopButton } from "../components/BackToTopButton";
+import { BackToTopButton } from "../components/ui/BackToTopButton";
 import { Footer } from "../components/Footer";
 
 export function PostPage() {

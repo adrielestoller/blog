@@ -1,9 +1,23 @@
+import { DropdownMenu } from "../components/ui/DropdownMenu";
 export function DashboardPage() {
   return (
     <>
       <main className="max-w-3xl mx-auto my-12 flex flex-col gap-4">
         <h1 className="mb-6 text-3xl font-semibold">Dashboard</h1>
 
+        <div className="flex justify-between">
+          <div className="flex gap-3">
+            <DropdownMenu />
+            <button
+              type="button"
+              className="py-1 px-2.5 ring--800 rounded-2xl text-white bg-sky-600
+            transition-all ease-in-out duration-200 hover:bg-sky-400
+            focus:ring-2"
+            >
+              Create post
+            </button>
+          </div>
+        </div>
         <div className="flex flex-col self-center">
           <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
