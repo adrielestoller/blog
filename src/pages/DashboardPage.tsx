@@ -10,11 +10,11 @@ export function DashboardPage() {
             <DropdownMenu />
             <button
               type="button"
-              className="py-1 px-2.5 ring--800 rounded-2xl text-white bg-sky-600
+              className="py-1 px-2.5 ring--800 rounded-lg text-white font-bold bg-sky-600
             transition-all ease-in-out duration-200 hover:bg-sky-400
             focus:ring-2"
             >
-              Create post
+              New
             </button>
           </div>
         </div>
